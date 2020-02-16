@@ -52,7 +52,7 @@ public class DijkstraShortestPathsTest {
   @Test
   public void testOnGraph() {
 
-    ArrayBasedGraph graph = JSONGraphUtils.deserialize("array_sample.json");
+    ArrayBasedGraph graph = JSONGraphUtils.deserialize("test_graph.json");
 
     DijkstraShortestPaths dijkstraShortestPaths =
         new DijkstraShortestPaths(graph);
